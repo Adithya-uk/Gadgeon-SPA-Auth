@@ -14,22 +14,22 @@
 
     <div class="signin">
         <div class="head"><h3>Login Here !</h3></div>
-        <form action="" method="post">
+        <form [formGroup]="loginform" (ngSubmit)="login();" method="get">
             
         <div class="place">
-            <input type="email" name="email" id="email" placeholder="enter your email" class="form-control">
+            <input type="email" formControlName="email" id="email" placeholder="enter your email" class="form-control">
         </div>
         <div class="place">
-            <input type="password" name="password" id="password" placeholder="enter your password" class="form-control">
+            <input type="password" formControlName="password" id="password" placeholder="enter your password" class="form-control">
         </div>
         <div class="b1">
-            <button type="submit" >Login</button>
+            <input type="submit" value="login">
         </div>
        
         </form>
 
         <div class="b2">
-            <button type="submit" routerLink="reg">Signup</button>
+            <button type="button" routerLink="reg">Signup</button>
         </div>
     </div>
     
