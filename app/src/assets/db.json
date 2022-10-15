@@ -1,0 +1,23 @@
+{
+  "employee": [
+    {
+      "id": 100,
+      "name": "abi",
+      "doj": "19-02-2020",
+      "salary": 35000,
+      "email": "abi@gmail.com"
+    }
+  ],
+  "users": [
+    {
+      "id": 10,
+      "name": "sre"
+    },
+    {
+      "name": "adi",
+      "email": "adi@gmail.com",
+      "password": "3312",
+      "id": 11
+    }
+  ]
+}
